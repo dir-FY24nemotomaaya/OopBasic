@@ -6,7 +6,7 @@ public class Departmennt {
     private int budget;
 
     // コンストラクター
-    public Department(String name, String departmentId, int budget) {
+    public Departmennt(String name, String departmentId, int budget) {
         this.name = name;
         this.departmentId = departmentId;
         this.budget = budget;
