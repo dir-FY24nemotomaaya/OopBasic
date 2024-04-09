@@ -6,7 +6,7 @@ public class Departmennt {
     private int budget;
 
     // コンストラクター
-    public Departmennt(String name, String departmentId, int budget) {
+    public Department(String name, String departmentId, int budget) {
         this.name = name;
         this.departmentId = departmentId;
         this.budget = budget;
@@ -24,6 +24,7 @@ public class Departmennt {
 
     // budgetのgetter
     public double getBudget() {
+    //doubleは実数を扱うデータ型（8バイト）
         return budget;
     }
 
